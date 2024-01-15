@@ -84,7 +84,8 @@ const App = () => {
   const fetchResponseFromLLM = async (text) => {
     try {
       const response = await fetch(
-        `https://c3-python-nostream.onrender.com/api/chat`,
+        // `https://c3-python-nostream.onrender.com/api/chat`,
+        `https://xh-voice-serice.onrender.com/api/chat`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
